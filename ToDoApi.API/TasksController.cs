@@ -16,7 +16,7 @@ namespace ToDoApi.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll([FromQuery] TaskStatus? status, [FromQuery] DateTime? dueDate)
+        public async Task<IActionResult> GetAll([FromQuery] Status? status, [FromQuery] DateTime? dueDate)
         {
             var tasks = await _service.GetAllAsync(status, dueDate);
             return Ok(tasks);
