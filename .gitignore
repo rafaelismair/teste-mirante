@@ -1,0 +1,44 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# Test results
+TestResults/
+*.log
+
+# DotCover
+*.dcvr
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+*.psmdcp
+
+# Other
+*.DS_Store
+Thumbs.db
+
+# Docker
+**/docker-compose.override.yml
+
+# Environment files
+.env
+*.db
