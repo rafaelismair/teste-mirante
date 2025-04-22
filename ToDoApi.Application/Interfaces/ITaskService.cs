@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ToDoApi.Domain;
+﻿using ToDoApi.Domain;
 
 namespace ToDoApi.Application.Interfaces
 {

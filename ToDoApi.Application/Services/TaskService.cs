@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using ToDoApi.Application.Interfaces;
+﻿using ToDoApi.Application.Interfaces;
 using ToDoApi.Domain;
 using ToDoApi.Domain.Interfaces;
 

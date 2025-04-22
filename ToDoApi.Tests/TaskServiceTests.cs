@@ -1,11 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using Moq;
 using ToDoApi.Application.Services;
 using ToDoApi.Domain;
 using ToDoApi.Domain.Interfaces;
-using Xunit;
 
 namespace ToDoApi.Tests
 {
