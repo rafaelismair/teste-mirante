@@ -1,31 +1,42 @@
-# 📝 ToDo API - Clean Architecture (.NET 8)
+# ✅ ToDo API – Clean Architecture com .NET 8
 
-API RESTful para gerenciamento de tarefas (ToDos), desenvolvida como parte de um desafio técnico, seguindo boas práticas de arquitetura e qualidade de código.
-
----
-
-## 🚀 Tecnologias Utilizadas
-
-- .NET 8
-- ASP.NET Core Web API
-- Entity Framework Core (InMemory)
-- xUnit + Moq (testes)
-- Docker
-- GitHub Actions (CI/CD)
-- Clean Architecture (com Repository + Unit of Work + Application Layer)
+API RESTful para gerenciamento de tarefas (ToDos), construída com foco em boas práticas, arquitetura limpa, testes, CI/CD com GitHub Actions, deploy em Docker Hub e Railway.
 
 ---
 
-## ⚙️ Como Rodar Localmente
+## 🚀 Demonstração
 
-### Requisitos:
-- [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
-- [Docker](https://www.docker.com/) (opcional)
+🔗 Acesse a API pública hospedada na Railway:  
+**[https://todo-api-production-77fd.up.railway.app/swagger](https://todo-api-production-77fd.up.railway.app/swagger)**
 
-### Via terminal:
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- ✅ ASP.NET Core 8.0 (Web API)
+- 🧱 Clean Architecture (Domain, Application, Infrastructure, API)
+- 🗃️ Entity Framework Core (InMemory)
+- 🔄 Unit of Work + Repository Pattern
+- 🧪 Testes com xUnit + Moq
+- 🐳 Docker + Docker Compose
+- 🔁 GitHub Actions (CI)
+- ☁️ Railway (Deploy)
+- 📦 Docker Hub
+
+---
+
+## 📦 Como rodar localmente
+
+### 🔧 Pré-requisitos
+
+- [.NET SDK 8.0](https://dotnet.microsoft.com/download)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop) *(opcional)*
+- [Git](https://git-scm.com/)
+
+### ▶️ Executar com `dotnet run`
+
 ```bash
 git clone https://github.com/rafaelismair/teste-mirante.git
 cd teste-mirante
 dotnet restore
-dotnet build
 dotnet run --project ToDoApi.API
